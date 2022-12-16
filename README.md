@@ -1,1 +1,14 @@
-# Challenge-4
+# Console Finances
+
+##The intenion of this application is to be able to analyse the data given and calculate the following, using concatenation to combine the strings and variables:
+
+
+- The total nuber of months included
+- The net total of the profits and losses over the entire period
+- The average in the changes of profit/losses over the whole period
+- Having tracked the total changes in profits from month to month, what the average of this is.
+- Total/Number of months
+- The greatest increase in profits (date and month)
+- The greatest decrease in losses (date and amount))
+
+This should then be printed to the console.
