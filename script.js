@@ -126,8 +126,7 @@ console.log ("Greatest Decrease in Profits: "+GD);
 
 // Your final code should print the analysis to the console.
 
-// **Hints:**
 
-// * You will need to do some research on your own for this project!
-// * Remember, in order to combine strings and variables in the console you will need to use **concatenation**.
 // * How do you only print to the nearest 100th in JavaScript?
+
+console.log(num.toFixed(2));
