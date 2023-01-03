@@ -87,15 +87,29 @@ var finances = [
     ['Feb-2017', 671099]
     ];
 
+
+//first find total months included in dataset:
+    let totalMonths = finances.length
+    console.log ("Total Months: "+ totalMonths);
+    
+//find the net total of profits/losses. 
+// loop through finances, calculating current month - prev month 
+//add numbers together
+    
+    let netTotal = 
+    
+    for (let i=0; i<finances.length; i++){
+    let thisMonth = finances[i];
+    let lastMonth = finances[i-1];
+    let difference = thisMonth - lastMonth;
+    
+    let netTotal = difference.amount}
+    console.log ("Total: "+ netTotal);
+    
+// figure out average of changes. 
     
 
-//You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
 
-// Your task is to write JavaScript code that analyzes the records to calculate each of the following:
-
-// * The total number of months included in the dataset.
-// * The net total amount of Profit/Losses over the entire period.
-// * The average of the **changes** in Profit/Losses over the entire period.
 
 //   * You will need to track what the total change in profits are from month to month and then find the average.
 //   * (`Total/Number of months`)
