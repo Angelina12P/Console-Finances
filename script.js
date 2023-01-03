@@ -105,7 +105,7 @@ var finances = [
     let lastMonth = profit[i-1];
     let difference = thisMonth - lastMonth;
     
-    let netTotal = difference.amount}
+    let netTotal = difference+=}
     console.log ("Total: "+ netTotal);
     
 // figure out average of changes. 
@@ -116,7 +116,10 @@ console.log ("Average change: "+avChange);
 
 // Find greatest increase in profits (date and amount)
 
-let GD 
+let GI 
+for (let i=0; i<finances.length; i++){
+if difference > 
+
 console.log ("Greatest Increase in Profits: "+GI);
 
 // Find greatest decrease in losses (date and amount) 
