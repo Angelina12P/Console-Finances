@@ -96,11 +96,13 @@ var finances = [
 // loop through finances, calculating current month - prev month 
 //add numbers together
     
-    let netTotal = 
+    
+    let profit = finances [i][1]
+    let date = finances [i][0]
     
     for (let i=0; i<finances.length; i++){
-    let thisMonth = finances[i];
-    let lastMonth = finances[i-1];
+    let thisMonth = profit[i];
+    let lastMonth = profit[i-1];
     let difference = thisMonth - lastMonth;
     
     let netTotal = difference.amount}
@@ -108,13 +110,20 @@ var finances = [
     
 // figure out average of changes. 
     
+let avChange = netTotal/totalMonths
+console.log ("Average change: "+avChange);
 
 
+// Find greatest increase in profits (date and amount)
 
-//   * You will need to track what the total change in profits are from month to month and then find the average.
-//   * (`Total/Number of months`)
-// * The greatest increase in profits (date and amount) over the entire period.
-// * The greatest decrease in losses (date and amount) over the entire period.
+let GD 
+console.log ("Greatest Increase in Profits: "+GI);
+
+// Find greatest decrease in losses (date and amount) 
+
+
+console.log ("Greatest Decrease in Profits: "+GD);
+
 // Your final code should print the analysis to the console.
 
 // **Hints:**
