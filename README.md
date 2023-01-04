@@ -19,8 +19,10 @@ This should then be printed to the console.
 ## The following is the link to the application: 
   https://angelina12p.github.io/Console-Finances/
 
-# Installation
-## Installation is unecessary as you can access the information needed by opening the console within any web browser. 
+#Installation 
 
-#License
+##Installation is unecessary as you can access the information needed by opening the console within any web browser. 
+
+#License 
+
 ##Please see license in github for further information
