@@ -12,3 +12,15 @@
 - The greatest decrease in losses (date and amount))
 
 This should then be printed to the console.
+
+
+# Link to the application
+
+## The following is the link to the application: 
+  https://angelina12p.github.io/Console-Finances/
+
+# Installation
+## Installation is unecessary as you can access the information needed by opening the console within any web browser. 
+
+#License
+##Please see license in github for further information
